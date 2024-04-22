@@ -2,13 +2,13 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Behandelen</title>
+	<title>Behandelen (bp)</title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
 	<!-- BOOTSTRAP -->
 	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
-	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
 	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
@@ -21,7 +21,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Behandelen</b>
+               <b>Behandelen (bp)</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-elementtype-BusinessProcess"></span>)
@@ -48,10 +48,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">WP "Voorbereiden behandeling" gaat vooraf aan iedere specifieke WP "Uitvoeren *"!
-In de pre-condities is dat telkens specifiek beschreven.
-
-"Behandelen" is eigenlijk "Uitvoeren behandelplan"</div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -62,7 +59,6 @@ In de pre-condities is dat telkens specifiek beschreven.
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>Classificatie</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ZIRA 1.3</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -76,8 +72,14 @@ In de pre-condities is dat telkens specifiek beschreven.
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-cabb85d7c51c4dae9daeff73c2849e48">
-																	<td><a href="../views/id-cabb85d7c51c4dae9daeff73c2849e48.html" target="view" title="01. Zorgprocessen"> 01. Zorgprocessen </a></td>
+								<tr id="used-in-views-id-3cd168c118ec483093e492cbb1f0cb70">
+																	<td><a href="../views/id-3cd168c118ec483093e492cbb1f0cb70.html" target="view" title="04. Behandelen"> 04. Behandelen </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-f8ddd831bb3f4c42b9ac190d099fe1ac">
+																	<td><a href="../views/id-f8ddd831bb3f4c42b9ac190d099fe1ac.html" target="view" title="01. Zorgdiensten"> 01. Zorgdiensten </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-2f54a6300c1e44e09a7666a02ca93eb3">
+																	<td><a href="../views/id-2f54a6300c1e44e09a7666a02ca93eb3.html" target="view" title="01. Zorgprocesmodel"> 01. Zorgprocesmodel </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
@@ -94,31 +96,81 @@ In de pre-condities is dat telkens specifiek beschreven.
 							</thead>
 							<tbody>
 									<tr>
-											<td><a href="../elements/id-6090690f0fb945479e6e17a86a440bb8.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
-											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen</a></td>
-											<td><a href="../elements/EAID_9ACF9294_961A_4584_8E23_28AF3285EA1C.html" target="element"> Uitvoeren aanvullend onderzoek</a></td>
+											<td><a href="../elements/id-ffbe7e70b43e4fa4b444f2978bc746e1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_1E2E7E48_375E_4269_A6D2_9E89670149DD.html" target="element"> Uitvoeren operatieve behandeling (wp)</a></td>
 										</tr><tr>
-											<td><a href="../elements/id-c665617f48f042df87e88efdf4182471.html" target="element" title=""></a></td>
+											<td><a href="../elements/id-d697a49fba8a4461b3276ffcf541e470.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_B6A92B23_05C6_49d2_BB9A_F4A2CDC774DC.html" target="element"> Evalueren behandeling (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2cf93df7cb694e00bd1a788225acfcdb.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_3C5FBB6B_40F5_4ef4_9478_1BED8FF42AC1.html" target="element"> Uitvoeren verzorging (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-be0aa4aea87948b9973e4e08f9786d79.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_9A54E990_7640_4459_9EEF_FED3456E6820.html" target="element"> Uitvoeren verpleegkundige zorg (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-63f9c48c41f1421397900e4d698d9cd7.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_5925F280_451E_40f9_B0EA_4E6AC761B1E2.html" target="element"> Uitvoeren (overige) medische behandeling (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/EAID_A28D43B8_DCE2_4ea0_9391_D0E668FFE1FD.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
-											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen</a></td>
-											<td><a href="../elements/EAID_51D3C3F3_6BD3_473e_AA6F_80BC21E408E9.html" target="element"> Overdragen</a></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_9ACF9294_961A_4584_8E23_28AF3285EA1C.html" target="element"> Uitvoeren aanvullend Onderzoek (bp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-73335cbf329140c3971b3e0ebfd24012.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_17D122B8_73E8_420e_8783_5C5A946AB0B7.html" target="element"> Voorbereiden behandeling (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a40424ed4ea7493cbc935644bffd627a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_13B4E388_BFCD_4b1f_A568_52F557E18AC7.html" target="element"> Uitvoeren medicamenteuze therapie (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-0da38dceb3304b37b0eae659d6474c86.html" target="element" title="diagnostisch therapeutische cyclus">diagnostisch therapeutische cyclus</a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-543eb0a5c85f42b7a809003c219313d4.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_AF5CD43C_754E_43d4_B17A_B67259804CC9.html" target="element"> Uitvoeren therapie (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-988ac088f72141e69da9f986e069bd03.html" target="element" title="realiseert">realiseert</a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_7B4B673F_A974_439a_B380_C1D416E1DD7C.html" target="element"> Behandeling</a></td>
+										</tr><tr>
+											<td><a href="../elements/EAID_535EF8E3_3EAE_4bf9_86A0_0CD5267E2D71.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_51D3C3F3_6BD3_473e_AA6F_80BC21E408E9.html" target="element"> Overdragen (bp)</a></td>
 										</tr>
 									<tr>
-											<td><a href="../elements/id-2ec99d3773d74211958447723955ef52.html" target="element" title=""></a></td>
+											<td><a href="../elements/EAID_137C22BF_C966_4cc9_9417_FBD591907B6A.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/EAID_9ACF9294_961A_4584_8E23_28AF3285EA1C.html" target="element"> Uitvoeren aanvullend Onderzoek (bp)</a></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/EAID_4B48A6D9_AD68_419c_91A0_C3FBFDA5624E.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/EAID_29AE8F59_2C4D_4672_8B59_8060D9521ACE.html" target="element"> Opstellen Behandelplan (bp)</a></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-616d34e6c2b745da93ff9846cd06c7dc.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
-											<td><a href="../elements/id-6084e1e911684a04b43706b3d26e552b.html" target="element"> Zorgprocessen</a></td>
-											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-5c7d63e9c5324bcb8dd83675ea51458e.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
-											<td><a href="../elements/EAID_29AE8F59_2C4D_4672_8B59_8060D9521ACE.html" target="element"> Opstellen behandelplan</a></td>
-											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen</a></td>
-										</tr><tr>
-											<td><a href="../elements/id-af8561551d7f403980b8f635094769a1.html" target="element" title=""></a></td>
-											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
-											<td><a href="../elements/EAID_9ACF9294_961A_4584_8E23_28AF3285EA1C.html" target="element"> Uitvoeren aanvullend onderzoek</a></td>
-											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen</a></td>
+											<td><a href="../elements/id-6b624bae598440ada3d06518bf936336.html" target="element"> Zorgprocessen</a></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
 										</tr>
 							</tbody>
 						</table>

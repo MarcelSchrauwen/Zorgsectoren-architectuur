@@ -2,13 +2,13 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Vaststellen zorgbehoefte</title>
+	<title>Vaststellen Zorgbehoefte (bp)</title>
 
 	<!-- JQUERY -->
 	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
 	<!-- BOOTSTRAP -->
 	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
-	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
 	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
@@ -21,7 +21,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Vaststellen zorgbehoefte</b>
+               <b>Vaststellen Zorgbehoefte (bp)</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-elementtype-BusinessProcess"></span>)
@@ -48,8 +48,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Pre-conditie: verwijzing
-Post-conditie: er is een contact gepland</div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -60,7 +59,6 @@ Post-conditie: er is een contact gepland</div>
 								</tr>
 							</thead>
 							<tbody>
-								<tr><td>Classificatie</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ZIRA 1.3</td></tr>
 							</tbody>
 						</table>
 					</div>
@@ -74,8 +72,17 @@ Post-conditie: er is een contact gepland</div>
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="used-in-views-id-cabb85d7c51c4dae9daeff73c2849e48">
-																	<td><a href="../views/id-cabb85d7c51c4dae9daeff73c2849e48.html" target="view" title="01. Zorgprocessen"> 01. Zorgprocessen </a></td>
+								<tr id="used-in-views-id-2f54a6300c1e44e09a7666a02ca93eb3">
+																	<td><a href="../views/id-2f54a6300c1e44e09a7666a02ca93eb3.html" target="view" title="01. Zorgprocesmodel"> 01. Zorgprocesmodel </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-f240e114e6cf40a59702be91267ec142">
+																	<td><a href="../views/id-f240e114e6cf40a59702be91267ec142.html" target="view" title="01. Vaststellen zorgbehoefte"> 01. Vaststellen zorgbehoefte </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-f8ddd831bb3f4c42b9ac190d099fe1ac">
+																	<td><a href="../views/id-f8ddd831bb3f4c42b9ac190d099fe1ac.html" target="view" title="01. Zorgdiensten"> 01. Zorgdiensten </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-bdf1de7081994430918f5592cf6edf40">
+																	<td><a href="../views/id-bdf1de7081994430918f5592cf6edf40.html" target="view" title="Nog te plaatsen elementen en relaties (Marcel)"> Nog te plaatsen elementen en relaties (Marcel) </a></td>
 																	<td><span class="i18n-viewpoint-" /></td>
 																</tr>
 							</tbody>
@@ -92,16 +99,46 @@ Post-conditie: er is een contact gepland</div>
 							</thead>
 							<tbody>
 									<tr>
-											<td><a href="../elements/id-ddb2661d093a418583bfb1494db30c0c.html" target="element" title=""></a></td>
+											<td><a href="../elements/id-22f5b3ef400a42f9ab649fe41b511d55.html" target="element" title="realiseert">realiseert</a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
+											<td><a href="../elements/EAID_E279FBED_2C6E_4d75_85C6_50321C0AA3C2.html" target="element"> Behandelplan</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bb8b64dcc45540a0b7937df1c3e0bd3d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
+											<td><a href="../elements/EAID_ED3BC090_330A_4140_9793_62CE97347881.html" target="element"> Verwerken verwijzing (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dd953c71f45c4dc89ffde25703832d01.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
+											<td><a href="../elements/EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9.html" target="element"> Bepalen zorgbehoefte (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e900cab05a904db7a239c887d0c2918e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
+											<td><a href="../elements/EAID_C3604AD3_4A3D_4d78_8C5B_4483D8C6CB82.html" target="element"> Plannen contact (wp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/EAID_4E2857D2_B64B_4ba3_902D_41052909E2F7.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
-											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen zorgbehoefte</a></td>
-											<td><a href="../elements/EAID_A30A6572_B6C4_42dd_BAC9_228702B9E017.html" target="element"> Diagnosticeren</a></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
+											<td><a href="../elements/EAID_A30A6572_B6C4_42dd_BAC9_228702B9E017.html" target="element"> Diagnosticeren (bp)</a></td>
 										</tr>
 									<tr>
-											<td><a href="../elements/id-39629d6b5cfe4b789b4710f92e26a908.html" target="element" title=""></a></td>
+											<td><a href="../elements/id-0da38dceb3304b37b0eae659d6474c86.html" target="element" title="diagnostisch therapeutische cyclus">diagnostisch therapeutische cyclus</a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/EAID_33C0219E_B8F5_4e54_A55D_3CDEBCE47643.html" target="element"> Behandelen (bp)</a></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2b451847c1d549a1a2fd6279f29a5940.html" target="element" title=""></a></td>
 											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
-											<td><a href="../elements/id-6084e1e911684a04b43706b3d26e552b.html" target="element"> Zorgprocessen</a></td>
-											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen zorgbehoefte</a></td>
+											<td><a href="../elements/id-6b624bae598440ada3d06518bf936336.html" target="element"> Zorgprocessen</a></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
+										</tr><tr>
+											<td><a href="../elements/EAID_8E83149B_3814_422e_8268_4BBB773101EC.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/EAID_3AE8E5DE_D913_46f9_99E4_60993ECA4844.html" target="element"> Verwijzing &amp; Overdracht</a></td>
+											<td><a href="../elements/EAID_8656A828_2F50_4ec0_A143_745A42B2E599.html" target="element"> Vaststellen Zorgbehoefte (bp)</a></td>
 										</tr>
 							</tbody>
 						</table>
